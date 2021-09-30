@@ -1,4 +1,4 @@
-import phonenumbers,os
+import os
 try:
      import phonenumbers
 except:
@@ -22,7 +22,7 @@ logo=("""\033[1;91m
 	\033[1;94mAuthor:ABIR HOSSAIN                                     
 """)
 print(logo)
-jp=("\033[1;95mif you give any space or rong number you get error")
+print("\033[1;95mif you give any space or rong number you get error")
 print()
 def menu():
 	phoneNumber = phonenumbers.parse(input("\033[1;92mENTER NUMBER \033[1;97m :"))
