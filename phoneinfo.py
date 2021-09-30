@@ -1,8 +1,8 @@
 import phonenumbers,os
 try:
-	import phonenumbers
+     import phonenumbers
 except:
-	os.system("pip install phonenumbers")
+      os.system("pip install phonenumbers")
 os.system("xdg-open https://www.facebook.com/profile.php?id=100051548076449")
 from phonenumbers import timezone
 from phonenumbers import geocoder
@@ -10,8 +10,7 @@ from phonenumbers import length_of_geographical_area_code
 cyan='\033[1;96m'
 green='\033[1;92m'
 red='\033[1;92m'
-#from phonenumbers import is
-#phoneNumber=("+8801876367347")
+os.system('clear')
 logo=("""\033[1;91m
 \033[1;91m  _____      _____ _   _ ______ ____  
 \033[1;91m |  __ \    |_   _| \ | |  ____/ __ \ 
